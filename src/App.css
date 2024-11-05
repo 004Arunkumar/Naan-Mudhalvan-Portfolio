@@ -1,0 +1,131 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(9, 1, 19);
+  color: #333;
+}
+
+header {
+
+  background-color: rgb(9, 1, 19);
+
+  color: white;
+  padding: 1.5rem;
+  text-align: left;
+  
+  background-repeat: no-repeat;
+  background-position: right;
+}
+header h1{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+header h1::before{
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: green;
+}
+header
+
+header nav a {
+  color: white;
+  margin: 0 ;
+  text-decoration: none;
+
+}
+
+
+
+section {
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: -4px 4px 3px rgb(12, 185, 185);
+}
+
+h2 {
+  color: #282c34;
+}
+
+ul {
+ 
+  margin-left: 50px;
+}
+li{
+  padding: 5px;
+}
+a{
+  padding: 20px;
+  color: aqua;
+  text-decoration: none;
+}
+
+nav{
+  text-align: right;
+  text-align: top;
+}
+
+p{
+  margin-left: 50px;
+}
+.uiuxdes{
+  margin-left: 0;
+
+}
+a:hover{
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.top{
+  font-style: italic;
+  margin-left: 90%;
+  color: rgb(9, 1, 19);
+}
+.top:hover{
+  color: rgb(4, 139, 139);
+}
